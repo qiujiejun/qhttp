@@ -2,6 +2,7 @@ QT       += core network
 QT       -= gui
 
 DEFINES       *= QHTTP_MEMORY_LOG=0
+DEFINES *= QHTTP_HAS_CLIENT
 win32:DEFINES *= QHTTP_EXPORT
 
 INCLUDEPATH +=  . $$PWD/../src $$PWD/../3rdparty
